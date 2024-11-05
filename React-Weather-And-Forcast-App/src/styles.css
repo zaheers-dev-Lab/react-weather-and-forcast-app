@@ -162,18 +162,19 @@ body {
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #13232c;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .day:hover {
-  background-color: aliceblue;
+  background-color: #13232cd2;
 }
 
 .day-name {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 5px;
+  color:white;
 }
 
 .day-icon {
@@ -185,6 +186,7 @@ body {
 .day-temperature {
   margin-top: 5px;
   font-weight: 400;
+  color:white;
 }
 
 .day-temperature span {
@@ -193,11 +195,12 @@ body {
 }
 
 .credit {
+  width: 100% !important;
+  background-color: #13232c;
   position: fixed;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  margin-bottom: 20px;
   text-align: center;
   font-size: 14px;
   color: #8fc9da;
@@ -205,13 +208,13 @@ body {
 }
 
 .credit a {
-  color: #f06789;
+  color: #ffffff;
   font-weight: 500;
   text-decoration: none;
 }
 
 .credit a:hover {
-  color: #a94b7e;
+  color: #f8ca34;
 }
 
 /* Desktop view */
@@ -223,7 +226,6 @@ body {
 
   .credit {
     position: fixed;
-    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
     margin-bottom: 0;
@@ -303,7 +305,6 @@ body {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    margin-bottom: 20px;
     text-align: center;
     font-size: 14px;
     width: 100%;
@@ -379,7 +380,6 @@ body {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    margin-bottom: 20px;
     text-align: center;
     font-size: 14px;
     width: 100%;
